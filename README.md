@@ -4,8 +4,9 @@ Bem-vindo ao repositório **Python Automation Script Template**!
 
 ### Speedrun
 ```sh
-curl -o setup.sh https://raw.githubusercontent.com/OliveiraCharles/python_boilerplate/main/scripts/setup.sh && source setup.sh
+curl -o setup.sh https://raw.githubusercontent.com/charlesoliveira-trab/python_boilerplate/main/scripts/setup.sh && source setup.sh
 ```
+>**Nota:** Só utilize caso já conheça o projeto.
 
 Este repositório tem como objetivo fornecer à comunidade de desenvolvedores Python uma estrutura simples e organizada para a criação rápida de scripts de automação. Ele inclui logs, testes e configuração segura usando a biblioteca `python-dotenv`.
 
@@ -49,7 +50,7 @@ A estrutura do projeto é organizada da seguinte forma:
 1. Clone o repositório:
 
 ```sh
-git clone https://github.com/OliveiraCharles/python_boilerplate.git
+git clone https://github.com/charlesoliveira-trab/python_boilerplate.git
 cd python_boilerplate
 ```
 
@@ -76,14 +77,6 @@ chmod +x setup.sh
 ./scripts/logs.sh
 ```
 
-- **Desinstalar o projeto**:
-
-    Execute o script `desinstalar.sh` para remover todos os arquivos e diretórios, exceto a pasta `scripts`. Haverá uma opção para remover ou não a pasta `logs`:
-
-```sh
-./scripts/desinstalar.sh
-```
-
 ## Detalhes dos Arquivos
 
 - **`src/config/settings.py`**: Configurações do projeto, carregando variáveis de ambiente do arquivo `.env`.
@@ -92,17 +85,12 @@ chmod +x setup.sh
 - **`tests/`**: Diretório contendo os testes do projeto.
 - **`scripts/run.sh`**: Script para executar o projeto e gerenciar logs.
 - **`scripts/logs.sh`**: Script para visualizar os logs gerados.
-- **`scripts/desinstalar.sh`**: Script para desinstalar o projeto.
 - **`scripts/venv.sh`**: Script para criar e configurar o ambiente virtual, bem como instalar novas bibliotecas adicionada em `requirements.txt`.
 
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorias, correções de bugs ou novas funcionalidades.
 
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
 ---
 
-Feito com ❤️.
+Feito com ❤️, Espero ter ajudado!
